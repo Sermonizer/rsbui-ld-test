@@ -10,7 +10,7 @@ import { onMounted } from 'vue';
 import { prefixes } from './process'
 
 onMounted(() => {
-  console.log(prefixes)
+  console.log(prefixes, process.env.VUE_APP_PREFIX)
 })
 
 </script>
